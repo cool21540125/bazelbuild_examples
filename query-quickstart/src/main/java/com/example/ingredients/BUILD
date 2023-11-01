@@ -21,3 +21,15 @@ java_library(
     srcs = ["Tomato.java"],
     visibility = ["//visibility:public"],
 )
+
+java_library(
+    name = "strawberry",
+    visibility = ["//visibility:public"],
+    srcs = ["Strawberry.java"],
+)
+
+java_library(
+    name = "banana",
+    visibility = ["//visibility:public"],
+    srcs = ["Banana.java"],
+)
